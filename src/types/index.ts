@@ -6,3 +6,10 @@ export interface FeedItem {
   emoji: string;
   category: 'food' | 'vehicle' | 'bizarre';
 }
+
+export interface MouthPosition {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
