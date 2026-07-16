@@ -7,9 +7,8 @@ export interface FeedItem {
   category: 'food' | 'vehicle' | 'bizarre';
 }
 
-export interface MouthPosition {
+export interface NormalizedLandmark {
   x: number;
   y: number;
-  width: number;
-  height: number;
+  z: number;
 }
